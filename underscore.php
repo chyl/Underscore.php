@@ -9,7 +9,7 @@
  */
 
 // Returns an instance of __ for OO-style calls
-function __($item=null) {
+function ___($item=null) {
   $__ = new __;
   if(func_num_args() > 0) $__->_wrapped = $item;
   return $__;
